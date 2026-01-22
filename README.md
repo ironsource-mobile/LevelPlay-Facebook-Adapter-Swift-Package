@@ -1,0 +1,39 @@
+# LevelPlay Facebook Adapter Swift Package
+
+This Swift Package provides the LevelPlay Facebook (Meta Audience Network) adapter for iOS.
+
+## Requirements
+
+- iOS 13.0+
+- Swift 5.0+
+- Xcode 15.0+
+
+## Installation
+
+### Swift Package Manager
+
+Add this package to your project using Xcode:
+
+1. File > Add Package Dependencies
+2. Enter the repository URL: `https://github.com/ironsource-mobile/LevelPlay-Facebook-Adapter-Swift-Package`
+3. Select the version you want to use
+
+Or add it to your `Package.swift`:
+
+```swift
+dependencies: [
+    .package(url: "https://github.com/ironsource-mobile/LevelPlay-Facebook-Adapter-Swift-Package", from: "5.1.0")
+]
+```
+
+## Dependencies
+
+This package includes:
+- LevelPlay iOS SDK (Unity Mediation SDK)
+- Meta Audience Network SDK v6.21.0
+
+## Documentation
+
+For integration guides and API documentation, visit:
+- [LevelPlay Documentation](https://developers.is.com/ironsource-mobile/ios/ios-sdk/)
+- [Meta Audience Network Documentation](https://developers.facebook.com/docs/audience-network/)
