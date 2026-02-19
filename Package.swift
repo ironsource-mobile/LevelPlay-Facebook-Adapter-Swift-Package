@@ -22,8 +22,8 @@ let package = Package(
     ),
     .binaryTarget(
       name: "FacebookAdapterSDK",
-      url: "https://raw.githubusercontent.com/ironsource-mobile/iOS-adapters/master/facebook-adapter/5.1.0/ISFacebookAdapter5.1.0.zip",
-      checksum: "e8bedf8883521d08d07e12f332f376724c577d92577b16762339905354a5ac2b"
+      url: "https://raw.githubusercontent.com/ironsource-mobile/iOS-adapters/master/facebook-adapter/5.2.0/ISFacebookAdapter5.2.0.zip",
+      checksum: "4be4163f8f6a07a30eb215c030dc0d940898317697243ff3a19f928c8a8d59e6"
     )
   ]
 )
