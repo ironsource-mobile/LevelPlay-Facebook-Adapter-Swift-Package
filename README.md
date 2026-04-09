@@ -30,7 +30,7 @@ dependencies: [
 
 This package includes:
 - LevelPlay iOS SDK (Unity Mediation SDK)
-- Meta Audience Network SDK v6.21.0
+- Meta Audience Network SDK
 
 ## Documentation
 
