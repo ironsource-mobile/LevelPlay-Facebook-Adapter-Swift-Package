@@ -9,7 +9,7 @@ let package = Package(
   ],
   dependencies: [
     .package(url: "https://github.com/facebook/FBAudienceNetwork", exact: "6.21.1"),
-    .package(url: "https://github.com/ironsource-mobile/Unity-Mediation-iAds-Swift-Package", "9.0.0"..<"10.0.0"),
+    .package(url: "https://github.com/ironsource-mobile/LevelPlay-Swift-Package", "9.0.0"..<"10.0.0"),
   ],
   targets: [
     .target(
@@ -17,7 +17,7 @@ let package = Package(
       dependencies: [
         "FacebookAdapterSDK",
         .product(name: "FBAudienceNetwork", package: "FBAudienceNetwork"),
-        .product(name: "UnityMediationSDK", package: "Unity-Mediation-iAds-Swift-Package"),
+        .product(name: "UnityMediationSDK", package: "LevelPlay-Swift-Package"),
       ]
     ),
     .binaryTarget(
