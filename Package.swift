@@ -8,7 +8,7 @@ let package = Package(
     .library(name: "FacebookAdapter", targets: ["FacebookAdapter"]),
   ],
   dependencies: [
-    .package(url: "https://github.com/facebook/FBAudienceNetwork", exact: "6.21.1"),
+    .package(url: "https://github.com/facebook/FBAudienceNetwork", exact: "6.22.0"),
     .package(url: "https://github.com/ironsource-mobile/LevelPlay-Swift-Package", "9.0.0"..<"10.0.0"),
   ],
   targets: [
@@ -22,8 +22,8 @@ let package = Package(
     ),
     .binaryTarget(
       name: "FacebookAdapterSDK",
-      url: "https://raw.githubusercontent.com/ironsource-mobile/iOS-adapters/master/facebook-adapter/5.3.0/ISFacebookAdapter5.3.0.zip",
-      checksum: "4868fc57078eebcf197a7e2ba58f13e2fcb0f7879b2e609783885f36d89f9970"
+      url: "https://raw.githubusercontent.com/ironsource-mobile/iOS-adapters/master/facebook-adapter/5.4.0/ISFacebookAdapter5.4.0.zip",
+      checksum: "d72221ee296e44991d9a922a7eb54918d6b604c1a8d7f6f401ceed08241a9408"
     )
   ]
 )
